@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 const cors = require("cors");
 const corsOptions = {
-    origin: ["http://localhost:5500"],
+    origin: ["https://sileniri.github.io/"],
 };
 
 app.use("/", cors(corsOptions));
